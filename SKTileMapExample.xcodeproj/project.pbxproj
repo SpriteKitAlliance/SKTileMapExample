@@ -9,25 +9,29 @@
 /* Begin PBXBuildFile section */
 		B60CF1101DE52113003B5F39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60CF10F1DE52113003B5F39 /* AppDelegate.swift */; };
 		B60CF1121DE52113003B5F39 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B60CF1111DE52113003B5F39 /* GameScene.sks */; };
-		B60CF1141DE52113003B5F39 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B60CF1131DE52113003B5F39 /* Actions.sks */; };
 		B60CF1161DE52113003B5F39 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60CF1151DE52113003B5F39 /* GameScene.swift */; };
 		B60CF1181DE52113003B5F39 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60CF1171DE52113003B5F39 /* GameViewController.swift */; };
 		B60CF11B1DE52113003B5F39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60CF1191DE52113003B5F39 /* Main.storyboard */; };
 		B60CF11D1DE52113003B5F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60CF11C1DE52113003B5F39 /* Assets.xcassets */; };
 		B60CF1201DE52113003B5F39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60CF11E1DE52113003B5F39 /* LaunchScreen.storyboard */; };
+		B60CF1281DE5223C003B5F39 /* PlayerSpriteNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60CF1271DE5223C003B5F39 /* PlayerSpriteNode.swift */; };
+		B60CF12A1DE522CF003B5F39 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60CF1291DE522CF003B5F39 /* Extensions.swift */; };
+		B60CF12C1DE52382003B5F39 /* Tiles.sks in Resources */ = {isa = PBXBuildFile; fileRef = B60CF12B1DE52382003B5F39 /* Tiles.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B60CF10C1DE52113003B5F39 /* SKTileMapTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKTileMapTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60CF10C1DE52113003B5F39 /* SKTileMapExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKTileMapExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B60CF10F1DE52113003B5F39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B60CF1111DE52113003B5F39 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		B60CF1131DE52113003B5F39 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		B60CF1151DE52113003B5F39 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		B60CF1171DE52113003B5F39 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		B60CF11A1DE52113003B5F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B60CF11C1DE52113003B5F39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B60CF11F1DE52113003B5F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B60CF1211DE52113003B5F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B60CF1271DE5223C003B5F39 /* PlayerSpriteNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerSpriteNode.swift; sourceTree = "<group>"; };
+		B60CF1291DE522CF003B5F39 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B60CF12B1DE52382003B5F39 /* Tiles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Tiles.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,7 @@
 		B60CF10D1DE52113003B5F39 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B60CF10C1DE52113003B5F39 /* SKTileMapTest.app */,
+				B60CF10C1DE52113003B5F39 /* SKTileMapExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,25 +64,36 @@
 		B60CF10E1DE52113003B5F39 /* SKTileMapTest */ = {
 			isa = PBXGroup;
 			children = (
-				B60CF10F1DE52113003B5F39 /* AppDelegate.swift */,
+				B60CF1291DE522CF003B5F39 /* Extensions.swift */,
 				B60CF1111DE52113003B5F39 /* GameScene.sks */,
-				B60CF1131DE52113003B5F39 /* Actions.sks */,
+				B60CF12B1DE52382003B5F39 /* Tiles.sks */,
 				B60CF1151DE52113003B5F39 /* GameScene.swift */,
-				B60CF1171DE52113003B5F39 /* GameViewController.swift */,
-				B60CF1191DE52113003B5F39 /* Main.storyboard */,
+				B60CF1271DE5223C003B5F39 /* PlayerSpriteNode.swift */,
 				B60CF11C1DE52113003B5F39 /* Assets.xcassets */,
-				B60CF11E1DE52113003B5F39 /* LaunchScreen.storyboard */,
-				B60CF1211DE52113003B5F39 /* Info.plist */,
+				B60CF12D1DE52C0C003B5F39 /* Supporting Files */,
 			);
-			path = SKTileMapTest;
+			name = SKTileMapTest;
+			path = SKTileMapExample;
+			sourceTree = "<group>";
+		};
+		B60CF12D1DE52C0C003B5F39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B60CF1211DE52113003B5F39 /* Info.plist */,
+				B60CF1191DE52113003B5F39 /* Main.storyboard */,
+				B60CF11E1DE52113003B5F39 /* LaunchScreen.storyboard */,
+				B60CF1171DE52113003B5F39 /* GameViewController.swift */,
+				B60CF10F1DE52113003B5F39 /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B60CF10B1DE52113003B5F39 /* SKTileMapTest */ = {
+		B60CF10B1DE52113003B5F39 /* SKTileMapExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B60CF1241DE52113003B5F39 /* Build configuration list for PBXNativeTarget "SKTileMapTest" */;
+			buildConfigurationList = B60CF1241DE52113003B5F39 /* Build configuration list for PBXNativeTarget "SKTileMapExample" */;
 			buildPhases = (
 				B60CF1081DE52113003B5F39 /* Sources */,
 				B60CF1091DE52113003B5F39 /* Frameworks */,
@@ -88,9 +103,9 @@
 			);
 			dependencies = (
 			);
-			name = SKTileMapTest;
+			name = SKTileMapExample;
 			productName = SKTileMapTest;
-			productReference = B60CF10C1DE52113003B5F39 /* SKTileMapTest.app */;
+			productReference = B60CF10C1DE52113003B5F39 /* SKTileMapExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B60CF1071DE52113003B5F39 /* Build configuration list for PBXProject "SKTileMapTest" */;
+			buildConfigurationList = B60CF1071DE52113003B5F39 /* Build configuration list for PBXProject "SKTileMapExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -123,7 +138,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B60CF10B1DE52113003B5F39 /* SKTileMapTest */,
+				B60CF10B1DE52113003B5F39 /* SKTileMapExample */,
 			);
 		};
 /* End PBXProject section */
@@ -135,9 +150,9 @@
 			files = (
 				B60CF11B1DE52113003B5F39 /* Main.storyboard in Resources */,
 				B60CF1121DE52113003B5F39 /* GameScene.sks in Resources */,
+				B60CF12C1DE52382003B5F39 /* Tiles.sks in Resources */,
 				B60CF11D1DE52113003B5F39 /* Assets.xcassets in Resources */,
 				B60CF1201DE52113003B5F39 /* LaunchScreen.storyboard in Resources */,
-				B60CF1141DE52113003B5F39 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,9 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B60CF12A1DE522CF003B5F39 /* Extensions.swift in Sources */,
 				B60CF1161DE52113003B5F39 /* GameScene.swift in Sources */,
 				B60CF1181DE52113003B5F39 /* GameViewController.swift in Sources */,
 				B60CF1101DE52113003B5F39 /* AppDelegate.swift in Sources */,
+				B60CF1281DE5223C003B5F39 /* PlayerSpriteNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,9 +291,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5MPKL8W54X;
-				INFOPLIST_FILE = SKTileMapTest/Info.plist;
+				INFOPLIST_FILE = SKTileMapExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.skymistdevelopment.SKTileMapTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skymistdevelopment.SKTileMapExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -287,9 +304,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5MPKL8W54X;
-				INFOPLIST_FILE = SKTileMapTest/Info.plist;
+				INFOPLIST_FILE = SKTileMapExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.skymistdevelopment.SKTileMapTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skymistdevelopment.SKTileMapExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -298,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B60CF1071DE52113003B5F39 /* Build configuration list for PBXProject "SKTileMapTest" */ = {
+		B60CF1071DE52113003B5F39 /* Build configuration list for PBXProject "SKTileMapExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B60CF1221DE52113003B5F39 /* Debug */,
@@ -307,13 +324,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B60CF1241DE52113003B5F39 /* Build configuration list for PBXNativeTarget "SKTileMapTest" */ = {
+		B60CF1241DE52113003B5F39 /* Build configuration list for PBXNativeTarget "SKTileMapExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B60CF1251DE52113003B5F39 /* Debug */,
 				B60CF1261DE52113003B5F39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
