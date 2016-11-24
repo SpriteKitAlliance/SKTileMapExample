@@ -1,5 +1,5 @@
 #SKTileMapExample
-SKTileMapExample is a simple top down example of using Apple’s new SKATileMap API with an analog touch controller.
+SKTileMapExample is a simple top down example of using Apple’s new SKTileMap API with an analog touch controller.
 
 ![SKTileMapExample Preview](Documentation/preview.gif)
 
