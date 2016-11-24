@@ -1,34 +1,32 @@
-#SKTileMapExampleProject
-SKTileMapExampleProject is a simple top down example of using Apple’s new SKATileMap API with an analog touch controller.
+#SKTileMapExample
+SKTileMapExample is a simple top down example of using Apple’s new SKATileMap API with an analog touch controller.
 
-![SKTileMapExampleProject Preview](Documentation/preview.gif)
+![SKTileMapExample Preview](Documentation/preview.gif)
 
 ##Analog Touch Controller
 The analog touch controller appears where the user touches making it easy to control the character without concerning themselves with finger placement.
 
-![SKTileMapExampleProject Analog Touch Down](Documentation/analog-touch-down.gif)
+![SKTileMapExample Analog Touch Down](Documentation/analog-touch-down.gif)
 
 When moved within the inner circle it controls the direction of the player without moving him. This makes it easy to look at something near without moving all over the place.
 
-![SKTileMapExampleProject Analog Touch Look](Documentation/analog-touch-look.gif)
+![SKTileMapExample Analog Touch Look](Documentation/analog-touch-look.gif)
 
 When moved outside the inner circle it controls movement and normalizes 
 
-![SKTileMapExampleProject Analog Touch Move](Documentation/analog-touch-move.gif)
+![SKTileMapExample Analog Touch Move](Documentation/analog-touch-move.gif)
 
 ##Camera 
 
 Camera is set to follow the player while not going outside the map bounds.
 
-![SKTileMapExampleProject Camera](Documentation/camera.gif)
+![SKTileMapExample Camera](Documentation/camera.gif)
 
 ##Player
 
-Player is created from a single sprite sheet. 
+Player is created from a single sprite sheet.
 
-![SKTileMapExampleProject Camera](Documentation/camera.gif)
-
-
+![SKTileMapExample Sprite Sheet](Documentation/Frank.png)
 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
